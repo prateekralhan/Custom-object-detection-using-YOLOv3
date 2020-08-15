@@ -34,7 +34,14 @@ are also saved on your drive, **yolov3_training__1000.weights**, **yolov3_traini
 ### Testing:
 1. Run the command: ***python yolo_object_detection.py*** and see the results.
 
-
+![rc1](https://user-images.githubusercontent.com/29462447/90323530-42ef2c00-df80-11ea-86a8-dc67d2ab2a11.png)
+![rc2](https://user-images.githubusercontent.com/29462447/90323532-44205900-df80-11ea-8dbe-d8afde99ca53.png)
+![rc3](https://user-images.githubusercontent.com/29462447/90323536-45ea1c80-df80-11ea-968f-8ad0f338be12.png)
+![rc4](https://user-images.githubusercontent.com/29462447/90323538-4682b300-df80-11ea-80d0-80d84348a9a6.png)
+![rc5](https://user-images.githubusercontent.com/29462447/90323540-471b4980-df80-11ea-9a17-a7426c2f0c2e.png)
+![rc6](https://user-images.githubusercontent.com/29462447/90323541-47b3e000-df80-11ea-83b4-9fe9c7e92668.png)
+![rc7](https://user-images.githubusercontent.com/29462447/90323542-48e50d00-df80-11ea-8561-f75c3c09ff0c.png)
+![rc8](https://user-images.githubusercontent.com/29462447/90323529-41bdff00-df80-11ea-965e-3686a74c208c.png)
 
 ### NOTE!!
 * You need to change the class name from ***"racoon"*** to any other custom object in case you wish to use this for detecting that object in your images. Ensure you make this 
@@ -47,3 +54,5 @@ change in both the scripts :
 ***yolo_object_detection.py***
 
 ![racoon_label_2](https://user-images.githubusercontent.com/29462447/90323284-f0604080-df7c-11ea-9faa-f3cefe91a3dc.png)
+
+* This custom object detector works for **single class** only. For multi-class object detection, refer [this.](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects) and modify the codes accordingly.
