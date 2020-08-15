@@ -17,6 +17,8 @@ detection model.
 3. Run: **python labelImg.py**, the GUI will pop up. Refer to the source repo for getting an understanding how to annotate the images using this tool.
 #### IMPORTANT: Ensure that you are using the settings for YOLO. If pascalVOC is written, then click on it and you will see YOLO.
 
+![labelImg_pic](https://user-images.githubusercontent.com/29462447/90323285-f0f8d700-df7c-11ea-914d-7df7912d6fc7.png)
+
 4. Create a zip file of the **images** folder -> ***images.zip***
 5. Create a folder in your Google Drive account with the name **yolov3** and upload ***images.zip*** there.
 
@@ -37,5 +39,7 @@ are also saved on your drive, **yolov3_training__1000.weights**, **yolov3_traini
 change in both the scripts : 
 
 ***YoloV3_training_racoon.ipynb*** 
+![racoon_label](https://user-images.githubusercontent.com/29462447/90323283-ef2f1380-df7c-11ea-9204-85d694e4d3a6.png)
 
-*** yolo_object_detection.py***
+***yolo_object_detection.py***
+![racoon_label_2](https://user-images.githubusercontent.com/29462447/90323284-f0604080-df7c-11ea-9faa-f3cefe91a3dc.png)
