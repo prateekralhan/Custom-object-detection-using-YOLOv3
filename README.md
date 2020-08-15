@@ -32,7 +32,8 @@ are also saved on your drive, **yolov3_training__1000.weights**, **yolov3_traini
 4. Download **yolov3_training_last.weights** and place it in the same directory where you cloned this repo.
 
 ### Testing:
-1. Run the command: *** python yolo_object_detection.py*** and see the results.
+1. Run the command: ***python yolo_object_detection.py*** and see the results.
+
 
 
 ### NOTE!!
