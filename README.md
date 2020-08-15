@@ -22,6 +22,7 @@ detection model.
 4. Create a zip file of the **images** folder -> ***images.zip***
 5. Create a folder in your Google Drive account with the name **yolov3** and upload ***images.zip*** there.
 
+#### < If you want to skip **Training** and directly jump to the **testing** phase, you can download the pretrained weights from [here.](https://drive.google.com/drive/folders/1uK-kwp2Ds_ka60xaPkDDmvPxk-rhjdAe?usp=sharing) >
 ### Training:
 1. Open the notebook ***YoloV3_training_racoon.ipynb*** in **Google Colab**. We will be using the Colab's Tesla T4 GPUs powered with 16 GB RAM for training the heavy YOLOv3 model.
 2. Execute the contents of the notebook and start training your model. Usually it takes 3 -6 hours to train the model. You can interrupt the training in between as well in case 
@@ -39,7 +40,9 @@ are also saved on your drive, **yolov3_training__1000.weights**, **yolov3_traini
 change in both the scripts : 
 
 ***YoloV3_training_racoon.ipynb*** 
+
 ![racoon_label](https://user-images.githubusercontent.com/29462447/90323283-ef2f1380-df7c-11ea-9204-85d694e4d3a6.png)
 
 ***yolo_object_detection.py***
+
 ![racoon_label_2](https://user-images.githubusercontent.com/29462447/90323284-f0604080-df7c-11ea-9faa-f3cefe91a3dc.png)
